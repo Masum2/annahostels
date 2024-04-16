@@ -1,0 +1,25 @@
+.fade .carousel-item {
+    transition: opacity 0.5s ease-in-out; /* Adjust the duration as needed */
+  }
+  
+  .fade .carousel-item.active {
+    opacity: 1;
+  }
+  
+  .fade .carousel-item-next.carousel-item-left,
+  .fade .carousel-item-prev.carousel-item-right,
+  .fade .carousel-item-next,
+  .fade .active.carousel-item {
+    opacity: 0;
+  }
+  
+  .fade .carousel-item-next,
+  .fade .active.carousel-item {
+    transform: translateX(0);
+  }
+  
+  .fade .carousel-item-next.carousel-item-left,
+  .fade .carousel-item-prev.carousel-item-right {
+    transform: translateX(0);
+  }
+  

@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Apartment from './Components/Apartment/Apartment';
+import Carousel from './Components/Carousel/Carousel';
+import Category from './Components/Category/Category';
+import Gallery from './Components/Gallery/Gallery';
+import Navbar from './Components/Navbar/Navbar';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+<>
+<Navbar/>
+<Carousel/>
+<Category/>
+<Gallery/>
+<Apartment/>
+</>  );
 }
 
 export default App;
