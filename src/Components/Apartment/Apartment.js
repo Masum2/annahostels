@@ -1,13 +1,11 @@
 import { Box, Grid, Typography } from '@mui/material'
 import React from 'react'
 import apartment1 from '../../images/apart1.png';
-import apartment2 from '../../images/apart2.png';
-import apartment3 from '../../images/apart3.png';
-import apartment4 from '../../images/apart4.png';
+
 const Apartment = () => {
   return (
     <div>
-      <Box sx={{background:'#EDF7F7',marginLeft:{xs:'0px',sm:'50px'},marginRight:{xs:'0px',sm:'50px'},width:'100%'}}>
+      <Box sx={{background:'#EDF7F7',margin:'40px',paddingBottom:'20px'}}>
       <Box
         sx={{ display: "flex", justifyContent: "center", marginTop: "55px" }}
       >
